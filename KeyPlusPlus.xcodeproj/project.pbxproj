@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CD29531C812B8500D2E88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD29521C812B8500D2E88B /* main.m */; };
+		40CD29561C812B8500D2E88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD29551C812B8500D2E88B /* AppDelegate.m */; };
+		40CD29591C812B8500D2E88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD29581C812B8500D2E88B /* ViewController.m */; };
+		40CD295C1C812B8500D2E88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD295A1C812B8500D2E88B /* Main.storyboard */; };
+		40CD295F1C812B8500D2E88B /* KeyPlusPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40CD295D1C812B8500D2E88B /* KeyPlusPlus.xcdatamodeld */; };
+		40CD29611C812B8500D2E88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CD29601C812B8500D2E88B /* Assets.xcassets */; };
+		40CD29641C812B8500D2E88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD29621C812B8500D2E88B /* LaunchScreen.storyboard */; };
+		40CD296F1C812B8500D2E88B /* KeyPlusPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD296E1C812B8500D2E88B /* KeyPlusPlusTests.m */; };
+		40CD297A1C812B8500D2E88B /* KeyPlusPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD29791C812B8500D2E88B /* KeyPlusPlusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40CD296B1C812B8500D2E88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CD29461C812B8400D2E88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CD294D1C812B8400D2E88B;
+			remoteInfo = KeyPlusPlus;
+		};
+		40CD29761C812B8500D2E88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CD29461C812B8400D2E88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CD294D1C812B8400D2E88B;
+			remoteInfo = KeyPlusPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40CD294E1C812B8500D2E88B /* KeyPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD29521C812B8500D2E88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40CD29541C812B8500D2E88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40CD29551C812B8500D2E88B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40CD29571C812B8500D2E88B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40CD29581C812B8500D2E88B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40CD295B1C812B8500D2E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40CD295E1C812B8500D2E88B /* KeyPlusPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyPlusPlus.xcdatamodel; sourceTree = "<group>"; };
+		40CD29601C812B8500D2E88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CD29631C812B8500D2E88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CD29651C812B8500D2E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CD296A1C812B8500D2E88B /* KeyPlusPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPlusPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD296E1C812B8500D2E88B /* KeyPlusPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyPlusPlusTests.m; sourceTree = "<group>"; };
+		40CD29701C812B8500D2E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPlusPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD29791C812B8500D2E88B /* KeyPlusPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyPlusPlusUITests.m; sourceTree = "<group>"; };
+		40CD297B1C812B8500D2E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CD294B1C812B8400D2E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29671C812B8500D2E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29721C812B8500D2E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CD29451C812B8400D2E88B = {
+			isa = PBXGroup;
+			children = (
+				40CD29501C812B8500D2E88B /* KeyPlusPlus */,
+				40CD296D1C812B8500D2E88B /* KeyPlusPlusTests */,
+				40CD29781C812B8500D2E88B /* KeyPlusPlusUITests */,
+				40CD294F1C812B8500D2E88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40CD294F1C812B8500D2E88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CD294E1C812B8500D2E88B /* KeyPlusPlus.app */,
+				40CD296A1C812B8500D2E88B /* KeyPlusPlusTests.xctest */,
+				40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CD29501C812B8500D2E88B /* KeyPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				40CD29541C812B8500D2E88B /* AppDelegate.h */,
+				40CD29551C812B8500D2E88B /* AppDelegate.m */,
+				40CD29571C812B8500D2E88B /* ViewController.h */,
+				40CD29581C812B8500D2E88B /* ViewController.m */,
+				40CD295A1C812B8500D2E88B /* Main.storyboard */,
+				40CD29601C812B8500D2E88B /* Assets.xcassets */,
+				40CD29621C812B8500D2E88B /* LaunchScreen.storyboard */,
+				40CD29651C812B8500D2E88B /* Info.plist */,
+				40CD295D1C812B8500D2E88B /* KeyPlusPlus.xcdatamodeld */,
+				40CD29511C812B8500D2E88B /* Supporting Files */,
+			);
+			path = KeyPlusPlus;
+			sourceTree = "<group>";
+		};
+		40CD29511C812B8500D2E88B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CD29521C812B8500D2E88B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40CD296D1C812B8500D2E88B /* KeyPlusPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				40CD296E1C812B8500D2E88B /* KeyPlusPlusTests.m */,
+				40CD29701C812B8500D2E88B /* Info.plist */,
+			);
+			path = KeyPlusPlusTests;
+			sourceTree = "<group>";
+		};
+		40CD29781C812B8500D2E88B /* KeyPlusPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40CD29791C812B8500D2E88B /* KeyPlusPlusUITests.m */,
+				40CD297B1C812B8500D2E88B /* Info.plist */,
+			);
+			path = KeyPlusPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CD294D1C812B8400D2E88B /* KeyPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CD297E1C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlus" */;
+			buildPhases = (
+				40CD294A1C812B8400D2E88B /* Sources */,
+				40CD294B1C812B8400D2E88B /* Frameworks */,
+				40CD294C1C812B8400D2E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyPlusPlus;
+			productName = KeyPlusPlus;
+			productReference = 40CD294E1C812B8500D2E88B /* KeyPlusPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40CD29691C812B8500D2E88B /* KeyPlusPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CD29811C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlusTests" */;
+			buildPhases = (
+				40CD29661C812B8500D2E88B /* Sources */,
+				40CD29671C812B8500D2E88B /* Frameworks */,
+				40CD29681C812B8500D2E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CD296C1C812B8500D2E88B /* PBXTargetDependency */,
+			);
+			name = KeyPlusPlusTests;
+			productName = KeyPlusPlusTests;
+			productReference = 40CD296A1C812B8500D2E88B /* KeyPlusPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40CD29741C812B8500D2E88B /* KeyPlusPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CD29841C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlusUITests" */;
+			buildPhases = (
+				40CD29711C812B8500D2E88B /* Sources */,
+				40CD29721C812B8500D2E88B /* Frameworks */,
+				40CD29731C812B8500D2E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CD29771C812B8500D2E88B /* PBXTargetDependency */,
+			);
+			name = KeyPlusPlusUITests;
+			productName = KeyPlusPlusUITests;
+			productReference = 40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CD29461C812B8400D2E88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tian-Shun Allan Jiang";
+				TargetAttributes = {
+					40CD294D1C812B8400D2E88B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					40CD29691C812B8500D2E88B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 40CD294D1C812B8400D2E88B;
+					};
+					40CD29741C812B8500D2E88B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 40CD294D1C812B8400D2E88B;
+					};
+				};
+			};
+			buildConfigurationList = 40CD29491C812B8400D2E88B /* Build configuration list for PBXProject "KeyPlusPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CD29451C812B8400D2E88B;
+			productRefGroup = 40CD294F1C812B8500D2E88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CD294D1C812B8400D2E88B /* KeyPlusPlus */,
+				40CD29691C812B8500D2E88B /* KeyPlusPlusTests */,
+				40CD29741C812B8500D2E88B /* KeyPlusPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CD294C1C812B8400D2E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CD29641C812B8500D2E88B /* LaunchScreen.storyboard in Resources */,
+				40CD29611C812B8500D2E88B /* Assets.xcassets in Resources */,
+				40CD295C1C812B8500D2E88B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29681C812B8500D2E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29731C812B8500D2E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CD294A1C812B8400D2E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CD29591C812B8500D2E88B /* ViewController.m in Sources */,
+				40CD295F1C812B8500D2E88B /* KeyPlusPlus.xcdatamodeld in Sources */,
+				40CD29561C812B8500D2E88B /* AppDelegate.m in Sources */,
+				40CD29531C812B8500D2E88B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29661C812B8500D2E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CD296F1C812B8500D2E88B /* KeyPlusPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29711C812B8500D2E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CD297A1C812B8500D2E88B /* KeyPlusPlusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40CD296C1C812B8500D2E88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CD294D1C812B8400D2E88B /* KeyPlusPlus */;
+			targetProxy = 40CD296B1C812B8500D2E88B /* PBXContainerItemProxy */;
+		};
+		40CD29771C812B8500D2E88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CD294D1C812B8400D2E88B /* KeyPlusPlus */;
+			targetProxy = 40CD29761C812B8500D2E88B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40CD295A1C812B8500D2E88B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CD295B1C812B8500D2E88B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40CD29621C812B8500D2E88B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CD29631C812B8500D2E88B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40CD297C1C812B8500D2E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40CD297D1C812B8500D2E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CD297F1C812B8500D2E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyPlusPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40CD29801C812B8500D2E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyPlusPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40CD29821C812B8500D2E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyPlusPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyPlusPlus.app/KeyPlusPlus";
+			};
+			name = Debug;
+		};
+		40CD29831C812B8500D2E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyPlusPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyPlusPlus.app/KeyPlusPlus";
+			};
+			name = Release;
+		};
+		40CD29851C812B8500D2E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyPlusPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyPlusPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		40CD29861C812B8500D2E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyPlusPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyPlusPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CD29491C812B8400D2E88B /* Build configuration list for PBXProject "KeyPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CD297C1C812B8500D2E88B /* Debug */,
+				40CD297D1C812B8500D2E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CD297E1C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CD297F1C812B8500D2E88B /* Debug */,
+				40CD29801C812B8500D2E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40CD29811C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CD29821C812B8500D2E88B /* Debug */,
+				40CD29831C812B8500D2E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40CD29841C812B8500D2E88B /* Build configuration list for PBXNativeTarget "KeyPlusPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CD29851C812B8500D2E88B /* Debug */,
+				40CD29861C812B8500D2E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40CD295D1C812B8500D2E88B /* KeyPlusPlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40CD295E1C812B8500D2E88B /* KeyPlusPlus.xcdatamodel */,
+			);
+			currentVersion = 40CD295E1C812B8500D2E88B /* KeyPlusPlus.xcdatamodel */;
+			path = KeyPlusPlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40CD29461C812B8400D2E88B /* Project object */;
+}
