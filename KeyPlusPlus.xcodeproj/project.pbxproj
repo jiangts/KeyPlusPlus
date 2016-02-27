@@ -16,6 +16,8 @@
 		40CD29641C812B8500D2E88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CD29621C812B8500D2E88B /* LaunchScreen.storyboard */; };
 		40CD296F1C812B8500D2E88B /* KeyPlusPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD296E1C812B8500D2E88B /* KeyPlusPlusTests.m */; };
 		40CD297A1C812B8500D2E88B /* KeyPlusPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD29791C812B8500D2E88B /* KeyPlusPlusUITests.m */; };
+		40CD298F1C812E0D00D2E88B /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD298E1C812E0D00D2E88B /* KeyboardViewController.m */; };
+		40CD29931C812E0D00D2E88B /* DrawingKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40CD298B1C812E0D00D2E88B /* DrawingKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,28 @@
 			remoteGlobalIDString = 40CD294D1C812B8400D2E88B;
 			remoteInfo = KeyPlusPlus;
 		};
+		40CD29911C812E0D00D2E88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CD29461C812B8400D2E88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CD298A1C812E0D00D2E88B;
+			remoteInfo = DrawingKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40CD29971C812E0D00D2E88B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40CD29931C812E0D00D2E88B /* DrawingKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		40CD294E1C812B8500D2E88B /* KeyPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +76,10 @@
 		40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyPlusPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CD29791C812B8500D2E88B /* KeyPlusPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyPlusPlusUITests.m; sourceTree = "<group>"; };
 		40CD297B1C812B8500D2E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CD298B1C812E0D00D2E88B /* DrawingKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DrawingKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CD298D1C812E0D00D2E88B /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		40CD298E1C812E0D00D2E88B /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		40CD29901C812E0D00D2E88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40CD29881C812E0D00D2E88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +120,7 @@
 				40CD29501C812B8500D2E88B /* KeyPlusPlus */,
 				40CD296D1C812B8500D2E88B /* KeyPlusPlusTests */,
 				40CD29781C812B8500D2E88B /* KeyPlusPlusUITests */,
+				40CD298C1C812E0D00D2E88B /* DrawingKeyboard */,
 				40CD294F1C812B8500D2E88B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +131,7 @@
 				40CD294E1C812B8500D2E88B /* KeyPlusPlus.app */,
 				40CD296A1C812B8500D2E88B /* KeyPlusPlusTests.xctest */,
 				40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */,
+				40CD298B1C812E0D00D2E88B /* DrawingKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,6 +179,16 @@
 			path = KeyPlusPlusUITests;
 			sourceTree = "<group>";
 		};
+		40CD298C1C812E0D00D2E88B /* DrawingKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				40CD298D1C812E0D00D2E88B /* KeyboardViewController.h */,
+				40CD298E1C812E0D00D2E88B /* KeyboardViewController.m */,
+				40CD29901C812E0D00D2E88B /* Info.plist */,
+			);
+			path = DrawingKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,10 +199,12 @@
 				40CD294A1C812B8400D2E88B /* Sources */,
 				40CD294B1C812B8400D2E88B /* Frameworks */,
 				40CD294C1C812B8400D2E88B /* Resources */,
+				40CD29971C812E0D00D2E88B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				40CD29921C812E0D00D2E88B /* PBXTargetDependency */,
 			);
 			name = KeyPlusPlus;
 			productName = KeyPlusPlus;
@@ -199,6 +247,23 @@
 			productReference = 40CD29751C812B8500D2E88B /* KeyPlusPlusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		40CD298A1C812E0D00D2E88B /* DrawingKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CD29941C812E0D00D2E88B /* Build configuration list for PBXNativeTarget "DrawingKeyboard" */;
+			buildPhases = (
+				40CD29871C812E0D00D2E88B /* Sources */,
+				40CD29881C812E0D00D2E88B /* Frameworks */,
+				40CD29891C812E0D00D2E88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingKeyboard;
+			productName = DrawingKeyboard;
+			productReference = 40CD298B1C812E0D00D2E88B /* DrawingKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +284,9 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 40CD294D1C812B8400D2E88B;
 					};
+					40CD298A1C812E0D00D2E88B = {
+						CreatedOnToolsVersion = 7.1;
+					};
 				};
 			};
 			buildConfigurationList = 40CD29491C812B8400D2E88B /* Build configuration list for PBXProject "KeyPlusPlus" */;
@@ -237,6 +305,7 @@
 				40CD294D1C812B8400D2E88B /* KeyPlusPlus */,
 				40CD29691C812B8500D2E88B /* KeyPlusPlusTests */,
 				40CD29741C812B8500D2E88B /* KeyPlusPlusUITests */,
+				40CD298A1C812E0D00D2E88B /* DrawingKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +329,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		40CD29731C812B8500D2E88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CD29891C812E0D00D2E88B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,6 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40CD29871C812E0D00D2E88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CD298F1C812E0D00D2E88B /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -308,6 +392,11 @@
 			isa = PBXTargetDependency;
 			target = 40CD294D1C812B8400D2E88B /* KeyPlusPlus */;
 			targetProxy = 40CD29761C812B8500D2E88B /* PBXContainerItemProxy */;
+		};
+		40CD29921C812E0D00D2E88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CD298A1C812E0D00D2E88B /* DrawingKeyboard */;
+			targetProxy = 40CD29911C812E0D00D2E88B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -483,6 +572,28 @@
 			};
 			name = Release;
 		};
+		40CD29951C812E0D00D2E88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawingKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlus.DrawingKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40CD29961C812E0D00D2E88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawingKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangts.KeyPlusPlus.DrawingKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +627,14 @@
 			buildConfigurations = (
 				40CD29851C812B8500D2E88B /* Debug */,
 				40CD29861C812B8500D2E88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40CD29941C812E0D00D2E88B /* Build configuration list for PBXNativeTarget "DrawingKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CD29951C812E0D00D2E88B /* Debug */,
+				40CD29961C812E0D00D2E88B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
